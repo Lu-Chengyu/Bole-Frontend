@@ -1,0 +1,232 @@
+.PostCard{
+    position: relative;
+    top: 8px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 375px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    border-radius: 20px;
+}
+.PostHead{
+    display: flex;
+}
+.Post_barbox{
+    position: relative;
+    top: 23px;
+    left: 17px;
+    background-color: #f5f5f6;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    border-radius: 10px;
+}
+.post_inputbar {
+    height: 50px;
+    width: 280px;
+    position: relative;
+    left: 30px;
+    background-color: #f5f5f6;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    margin-left: 2%;
+    padding-right: 10px;
+    resize: none;
+    border-radius: 10px;
+    /*border: blue 1px solid;*/
+}
+
+.Box-icon{
+    position: relative;
+    left: 20px;
+    border-radius: 1px;
+}
+.PostRoot{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.Post-icon{
+    position: relative;
+    top: 21px;
+    left: 285px;
+    margin-right: 5px;
+}
+.PostRoot button{
+    position: relative;
+    top: 20px;
+    left: 279px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.modal {
+    position: relative;
+    background-color: #f5f5f6;
+    width: 600px;
+    height: 500px;
+    top: -110px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: 10px;
+    border-radius: 10px; /* Optional. Rounds container corners */
+    font-weight: bold;
+}
+
+/* Close button */
+.close {
+    color: black;
+    float: right; /* Positioned to the right of the parent container whichever size it is */
+    float: top;
+    font-size: 25px;
+    font-weight: lighter; /*light / normal / bold*/
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_context {
+    text-align: left;
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+:focus {
+    outline: 0;
+}
+
+.postInputBox{
+    height: 300px;
+    width: 300px;
+}
+
+
+.postBoxHead{
+    text-align: left;
+    margin-top: 2%;
+    font-size: 20px;
+    margin-bottom: -10px;
+    margin-left: 18px;
+}
+
+.line{
+    position: relative;
+    width: 100%;
+    top:11px;
+    background-color: #f5f5f6;
+}
+
+.post-name{
+    margin-top: -6%;
+    text-align: left;
+}
+
+.post-name p{
+    position: relative;
+    left: 8px;
+    top: 3px;
+}
+
+
+select{
+    background-color: #e7e3e3;
+    width: 78px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 14px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+.postBoxUser{
+    display: flex;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.post-image{
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.post-name p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+
+.post-name button{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+
+.post-inputBox{
+    background-color: #f5f5f6;
+    height: 310px;
+    width: 95%;
+    font-size: 21px;
+    border: none;
+    resize:none;
+}
+
+.postBoxRoot{
+    display: flex;
+}
+
+.postBoxRoot button {
+    background-color: transparent;
+    border: none;
+    color: #252323;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: -25px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.postBoxRoot button:hover {
+    color: rgb(120, 80, 420);
+}
+
+.postBoxRoot-button {
+    background-color: rgb(230, 225, 225);
+    height: 10px;
+    color: #252323;
+    cursor: pointer;
+    padding: 14px;
+    margin-top: -5px;
+    margin-left: 345px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 12px;
+}

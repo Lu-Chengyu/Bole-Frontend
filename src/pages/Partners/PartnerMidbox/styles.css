@@ -1,0 +1,155 @@
+
+.post {
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    height: 120px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    /*margin-bottom: 10px;*/
+    /*border: green 2px solid;*/
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 0;
+    /*border: red 2px solid;*/
+}
+
+.post-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post-info h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.post-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.btn-container {
+    /*border: red 2px solid;*/
+    margin-bottom: 16px;
+
+}
+
+.post-title {
+    font-size: 19px;
+}
+
+.partners-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button {
+    background-color: rgb(120, 80, 420);
+    color: #ffffff;
+    border: rgba(120, 80, 420, 0.1) 1.7px solid;
+    padding: 2px 6px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-follow.followed {
+    background-color: #333;
+    color: #fff;
+  }
+
+.btn-container button:hover {
+    background-color: rgba(120, 80, 420, 0.1);
+    color: rebeccapurple;
+    border: rebeccapurple 1.7px solid;
+    cursor: pointer;
+}
+
+.pagination-buttons{
+    margin-left: 47%;
+}
+.pagination-buttons button{
+    background-color: #ada4a4;
+    height: 35px;
+    width: 35px;
+    color: #ffffff;
+    border: rgba(120, 80, 420, 0.1) 1.7px solid;
+    padding: 2px 6px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-title {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.post-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.partner-post-list {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px ;
+    margin-right: auto;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+    height: calc(100vh - 260px);
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+.partner-post-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.post-box-title{
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: -10px;
+
+}
+
+.post-box-content{
+    word-wrap: break-word;
+}
+
+.btn-page.active {
+    /* Your styles for the active page button */
+    background-color: #5a5959;
+    color: #fff;
+  }
+
+/* @media (max-width: 768px) {
+    .partner-post-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .partner-post-list {
+        grid-template-columns: 1fr;
+    }
+} */

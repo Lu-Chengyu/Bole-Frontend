@@ -1,0 +1,9 @@
+.profile-mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-layout-sider-collapsed .ant-layout-sider-trigger{
+    color: #7b5fff;
+    background-color: white;
+}

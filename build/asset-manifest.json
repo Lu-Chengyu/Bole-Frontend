@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17db1965.css",
+    "main.js": "/static/js/main.73ac08d4.js",
+    "static/media/6.png": "/static/media/6.2ada3df47acd08ee40eb.png",
+    "static/media/loading.gif": "/static/media/loading.65668d0ebd2226834953.gif",
+    "static/media/user2.jpg": "/static/media/user2.8f87d9fe4e5c8ff02913.jpg",
+    "static/media/bannerRight.png": "/static/media/bannerRight.f00346830d36206928f7.png",
+    "static/media/banner2.png": "/static/media/banner2.96dbd7a195e810fb6131.png",
+    "static/media/linkedBack4.jpeg": "/static/media/linkedBack4.8877b1996738dc66fb3e.jpeg",
+    "static/media/5.png": "/static/media/5.2bcf62acf4cc1323b434.png",
+    "static/media/sideBoxBackground.jpg": "/static/media/sideBoxBackground.ff7c6e62448b11192b3f.jpg",
+    "static/media/user1.jpg": "/static/media/user1.36c11fd3d1d700a9530c.jpg",
+    "static/media/user6.jpg": "/static/media/user6.d5047f31c9be70f3cbdb.jpg",
+    "static/media/coverBackground.jpeg": "/static/media/coverBackground.e6d25d38e88f873ab83b.jpeg",
+    "static/media/user7.jpg": "/static/media/user7.e71759c57f30a4be565c.jpg",
+    "static/media/msg5.jpg": "/static/media/msg5.b1c0753efe626a267680.jpg",
+    "static/media/profileSample.jpg": "/static/media/profileSample.a7a242e37550da6648b1.jpg",
+    "static/media/msgBack2.png": "/static/media/msgBack2.62f678503e53ea6c16c8.png",
+    "static/media/bole-black-logo.png": "/static/media/bole-black-logo.b83821a2c82cdfb616da.png",
+    "index.html": "/index.html",
+    "main.17db1965.css.map": "/static/css/main.17db1965.css.map",
+    "main.73ac08d4.js.map": "/static/js/main.73ac08d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17db1965.css",
+    "static/js/main.73ac08d4.js"
+  ]
+}

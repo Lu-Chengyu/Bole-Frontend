@@ -1,0 +1,64 @@
+.rec-side-box {
+    width: 220px;
+    height: fit-content;
+    right: 0;
+    margin-right: 140px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    float: left;
+    /*border: green solid 1px;*/
+    position: absolute;
+}
+
+.rec-content {
+    color: rgba(50, 50, 50, 0.8);
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /*border: palegreen solid 2px;*/
+    margin-top: 20px;
+}
+
+.rec-head {
+    font-weight: 650;
+    font-size: 17px;
+    margin-bottom: 22px;
+    /* padding-left: 10px; */
+}
+
+.trend-item {
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.rec-text {
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none !important;
+  color: rgba(50, 50, 50, 0.8) !important;
+}
+
+.rec-text:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.trend-icon-up{
+    margin-left: 15px;
+    color: green;
+}
+
+
+.trend-data {
+    font-weight: 400;
+    font-size: 13.4px;
+    margin-left: 5px;
+}

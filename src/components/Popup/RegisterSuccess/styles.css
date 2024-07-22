@@ -1,0 +1,75 @@
+.modal {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font: 400 18px Consolas, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* SignUp button */
+.signUp {
+    width: 132px;
+    height: 42px;
+    text-align: center;
+    margin-left: 94px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #1277a2;
+    font-weight: bolder;
+    font-size: xxx-large;
+    font: 450 28px Lucida, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px; /* Optional. Rounds container corners */
+    font-weight: bold;
+}
+
+/* SignIn button */
+.signIn {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #1277a2;
+    font-weight: bolder;
+    font-size: large;
+    font: 400 21px Lucida, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px; /* Optional. Rounds container corners */
+    font-weight: bold;
+}
+
+
+/* Close button */
+.close {
+    color: black;
+    float: right; /* Positioned to the right of the parent container whichever size it is */
+    float: top;
+    font-size: 25px;
+    font-weight: lighter; /*light / normal / bold*/
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_context {
+    text-align: center;
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+:focus {outline:0;}

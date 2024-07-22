@@ -1,0 +1,114 @@
+.profile-side-box {
+    width: 240px;
+    height: 380px;
+    margin-left: 180px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    float: left;
+    /*border: green solid 2px;*/
+    position: absolute;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /*border: #1A73E8 solid 3px;*/
+}
+
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: white 2px solid;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.profile-picture:hover {
+    cursor: pointer;
+}
+
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.profile-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.profile-location {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.profile-about,
+.profile-connections {
+    margin-bottom: 20px;
+}
+
+.profile-about h3,
+.profile-connections h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.profile-about {
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    /*border: red 2px solid;*/
+}
+
+.profile-content {
+    color: rgba(50, 50, 50, 0.8);
+    display: flex;
+    flex-direction: column;
+    /*border: palegreen solid 2px;*/
+    margin-top: -10px;
+}
+
+.content-item {
+    margin-right: auto;
+}
+
+.text {
+    margin-left: 10px;
+    color: rgba(50, 50, 50, 0.8);
+    text-decoration: none;
+}
+
+.text-myApplication {
+    margin-left: 17px;
+    color: rgba(50, 50, 50, 0.8);
+    text-decoration: none;
+}
+
+.text:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text-myApplication:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}

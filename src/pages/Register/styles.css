@@ -1,0 +1,235 @@
+.signupBody {
+    /*border: red 1.5px solid;*/
+    min-height: 88vh;
+    height: auto;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e9ee;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.7)), url('../../assets/6.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.signupForm {
+    border: white 1.4px solid;
+    background-color: white;
+    padding: 40px;
+    /*margin-top: 15px;*/
+    /*margin-bottom: 30px;*/
+    /**/
+    /* height: 500px; */
+    /* width: 400px; */
+    /* box-shadow : 0px 3px 9px #c6c6cc; */
+}
+
+.formOneHead {
+    font-size: 26px;
+    font-weight: 250;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.formTwoHead {
+    margin-bottom: 10px;
+}
+
+.checkGif img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.signupFormOne label, .signupFormTwo label {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.signupFormOne input, .signupFormTwo input {
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+}
+
+.signupFormOne .btn-dark {
+    width: 100%;
+    height: 36px;
+    margin: 30px 0px;
+    border: white 1.7px solid;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    transition: all .35s;
+    position: relative;
+}
+
+.signupFormOne button:after {
+    position: absolute;
+    opacity: .2;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #9c9c9c;
+    color: white;
+    transition: all .35s;
+}
+
+
+.signupFormOne button:hover:after {
+    width: 100%;
+}
+
+.signupFormOne .text-danger {
+    font-size: 12px;
+    font-weight: 500;
+    /*position: absolute;*/
+    right: 0;
+    color: red;
+}
+
+.text-sendSuccess {
+    font-size: 12px;
+    font-weight: 500;
+    right: 0;
+    color: forestgreen;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label {
+    width: 140px;
+    /*border: green 2px solid;*/
+}
+
+.checkbox-input {
+    flex: 1;
+    margin-left: -320px;
+}
+
+
+.signupFormOne .linkSignin {
+    text-align: center;
+}
+
+.signupFormOne .linkSignin .signinFont {
+    color: rgb(120, 60, 250);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signupFormOne .linkSignin .signinFont:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signupFormTwo {
+    padding: 10px;
+    width: 45vw;
+    min-width: 240px;
+}
+
+.signupFormTwo .btn-dark {
+    width: 100%;
+    height: 36px;
+    margin: 30px 0px;
+    border: white 1.7px solid;
+    background-color: #333333;
+    color: white;
+}
+
+.signupFormTwo span {
+    color: red;
+    font-size: 12.9px;
+    position: absolute;
+}
+
+.formTwoDateSection {
+    display: flex;
+}
+
+.formTwoDates {
+    width: 20%;
+}
+
+.formTwoDateTwo {
+    display: inline-block;
+}
+
+.signupFormTwo {
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+
+
+.otpInputDiv > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.otpInputDiv > div > div > input {
+    width: 30px !important;
+}
+
+.loaderWindow {
+    width: 300px;
+    height: 400px;
+}
+
+.btn-otp {
+    width: 80px;
+    height: 30px;
+    border: white 1.7px solid;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    transition: all .35s;
+    position: relative;
+}
+
+.btn-otp:hover {
+    border: #333333 1.7px solid;
+    background-color: white;
+    color: #333333;
+    cursor: pointer;
+}
+
+.agreement_check {
+    /*top: 0;*/
+    /*left: 0;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    text-align: center;
+}
+
+.loginForm .linkLogin {
+    text-align: center;
+}
+
+
+@media (max-width: 500px) {
+    .signupFormTwo span {
+        color: red;
+        font-weight: 500;
+        font-size: 11.4px;
+        position: absolute;
+    }
+}
+
+@media (max-width: 890px) {
+    .formTwoDateSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formTwoDates {
+        width: 50%;
+    }
+}

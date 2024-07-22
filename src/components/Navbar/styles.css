@@ -1,0 +1,207 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #e1e9ee;
+    /*height: 64px;*/
+    line-height: 64px;
+    padding: 0 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /*max-width: 1128px;*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    margin-top: 20px;
+    align-self: center;
+}
+
+
+.logo img {
+    height: 34px;
+    align-self: flex-start;
+}
+
+.rightColumn {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -54px;
+    padding: 0;
+    flex-grow: 1;
+    /*border: red 3px solid;*/
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation-item {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    /*margin-right: 24px;*/
+    /*text-decoration: none;*/
+    transition: all 0.3s ease;
+}
+
+.navigation-item:hover {
+    color: rebeccapurple;
+}
+
+.buttonSignIn {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: transparent;
+    height: 36px;
+    width: 100px;
+    color: rebeccapurple;
+}
+
+.buttonSignIn:hover {
+    background-color: whitesmoke;
+    color: rebeccapurple;
+    transition: all 0.3s ease;
+}
+
+.buttonSignUp {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    height: 36px;
+    width: 100px;
+    background-color: greenyellow;
+}
+
+.buttonSignUp:hover {
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.dash {
+    margin-top: 22px;
+    border-left: 1px solid darkgray;
+    height: 20px;
+}
+
+/*  -------------------------------------------------    */
+
+
+.navDropdown {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.navDropdown:hover {
+    cursor: pointer;
+}
+
+.navUserProfHead {
+    margin-top: 8px;
+    /*border: dodgerblue 2px solid;*/
+}
+
+.navDropdownProfImg {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /*border: dodgerblue 2px solid;*/
+}
+
+.navUserProfHead .navContent {
+    /*border: red solid 2px;*/
+    margin-left: 64px;
+    margin-top: 24px;
+    width: 166px;
+    height: 66px;
+    color: rgba(50, 50, 50, 0.8);
+}
+
+.navUserProfHead .name {
+    font-size: 16.4px;
+    font-weight: 800;
+    margin-top: -60px;
+    color: rgba(50, 50, 50, 0.8);
+    /*padding-bottom: 3.5px;*/
+    /*padding-top: 4px;*/
+}
+
+.name:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navUserProfHead .tagline {
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 0;
+    /*margin-bottom: 5px;*/
+}
+
+.btnPremium {
+    border: rgb(120, 80, 420) 1.5px solid;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: rgba(120, 80, 420, 1);
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    /*margin-bottom: 4px;*/
+    cursor: pointer;
+}
+
+.btnPremium:hover {
+    cursor: pointer;
+    background-color: rgb(120, 80, 420);
+    color: white;
+}
+
+.dropdown-menu .hr-line {
+    width: 100%;
+    height: 0.8px;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.downContainer {
+    text-decoration: none;
+}
+
+.dropAccountOptions {
+    padding: 6px;
+    font-size: 13.4px;
+    color: rgba(50, 50, 50, 0.8);
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.dropAccountOptions:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropAccountOptions .text {
+    margin-left: 10px;
+}
+

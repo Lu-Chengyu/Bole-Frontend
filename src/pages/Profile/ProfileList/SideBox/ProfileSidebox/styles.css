@@ -1,0 +1,27 @@
+
+.profile-side-box {
+    margin-left: 10%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.profile-content {
+    margin-top: 30px;
+}
+
+.profile-item{
+    color: #1A73E8;
+    /*font-weight: bold;*/
+}
+
+.profile-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+

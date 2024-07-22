@@ -1,0 +1,145 @@
+.messageBody {
+  /* border: red 1px solid; */
+  display: flex;
+  height: 100vh;
+  /*min-height: 72vh;*/
+  /*flex-direction: row;*/
+  /*justify-content: space-between;*/
+  /*background: transparent !important;*/
+}
+
+.sidebox {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.sidebox h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebox li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebox li:hover,
+.sidebox li.selected {
+  background-color: #e0e0e0;
+}
+
+.sidebox img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.chatbox {
+  flex: 4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbox .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chatbox .header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.chatbox .header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.message-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.message img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.message.sent {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.message.sent .msg-text {
+  background-color: #e0f2f1;
+  color: #333;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.message.received {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.message.received .msg-text {
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #388e3c;
+}
